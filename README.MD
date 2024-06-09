@@ -1,5 +1,4 @@
 # Voice Assistant System
-![Alt text](Cover-photo.jpg)
 
 ## Demos
 - [Build an offline voice assistant on Raspberry Pi](https://youtu.be/RGPhA-muTN8?si=qIpV2iwAn5oIqxBy)
