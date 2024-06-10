@@ -1,6 +1,9 @@
 # Voice Assistant System
+<<<<<<< HEAD
 
 This project is an implementation of a voice assistant system using voice commands as input on a Raspberry Pi 4.  By utilizing speech-to-text and natural language understanding (NLU) libraries in Python, we are able to interpret the user's request and offer the proper controlling and output for the program. It demostrates how to integrate multiple functionalities on a evaluation board. 
+=======
+>>>>>>> refs/remotes/origin/master
 
 ## Demos
 - [Build an offline voice assistant on Raspberry Pi](https://youtu.be/RGPhA-muTN8?si=qIpV2iwAn5oIqxBy)
