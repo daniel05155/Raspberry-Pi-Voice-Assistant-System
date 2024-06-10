@@ -1,5 +1,6 @@
 # Voice Assistant System
-![Alt text](Cover-photo.jpg)
+
+This project is an implementation of a voice assistant system using voice commands as input on a Raspberry Pi 4.  By utilizing speech-to-text and natural language understanding (NLU) libraries in Python, we are able to interpret the user's request and offer the proper controlling and output for the program. It demostrates how to integrate multiple functionalities on a evaluation board. 
 
 ## Demos
 - [Build an offline voice assistant on Raspberry Pi](https://youtu.be/RGPhA-muTN8?si=qIpV2iwAn5oIqxBy)
@@ -82,7 +83,27 @@ python main.py
     ```
 
 ## Experiment
+- Based on usability and performance verification, we utilize **completion rate** as an estimate for customer experience quality. 
+- Make the ten queries to each functionality in our system.
 
-### Translation context in experiment
+### Translation context
 
-### Performance evaluation
+
+|                Before translation                                                   | After translation                                                      |
+|:----------------------------------------------------------------------------------------------------------------------:| ---------------------------------------------------------------------- |
+|                                             我想去大賣場買家用品 (Chinese)                                             | I want to go to the hypermarket buyer products. (English)              |
+|                                        可以加入更多的功能在這次的專案(Chinese)                                         | You can add more features in this project. (English)                   |
+|                        we cannot find the definition of this word in the dictionary. (English)                         | 我們找不到這詞在辭典的定義(Chinese)                                    |
+| Voice assistance have become prevalence of a range of personal devices such as smartphones and smart meters. (English) | 語音援助已成為一系列個人設備的普遍性，例如智能手機和智能電錶 (Chinese) |
+|                                                我忘記帶雨傘了 (Chinese)                                                | 傘を持ってくるのを忘れました  (Japanese)                               |
+|                                          我想趕快完成功課並且出去玩(Chinese)                                           | Ik wil de oefeningen snel voltooien en gaan spelen. (Dutch)            |
+|                                                我忘記帶雨傘了 (Chinese)                                                | J'ai oublié d'apporter un parapluie   (French)                         |
+
+
+## Performance evaluation
+
+|Functionality                 |Completion rate(%)|
+|:------------:                |:-------------:|
+| Environmen Measurement       |    80%        |
+| Smart light control          |    80%        |
+| Translation                  |    70%        |
